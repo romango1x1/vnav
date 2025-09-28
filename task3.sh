@@ -1,7 +1,3 @@
-ssh-keygen -t ed25519 -C "evil.arthass67@gmail.com"
-eval `ssh-agent -s `
-ssh-add ~/.ssh/
-cat ~/.ssh/github.pub
 git clone git@github.com:romango1x1/vnav.git
 cd vnav
 python3 -m venv venv
